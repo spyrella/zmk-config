@@ -63,7 +63,7 @@
 &trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                           &kp HOME  &kp PG_DN &kp PG_UP   &kp END     &out OUT_USB   &ext_power EP_OFF
 &kp TAB    &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                         &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT   &kp DEL        &kp BSPC
 &kp LSHFT  &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans      &trans      &trans   &kp C_PP  &kp F24   &kp C_PREV  &kp C_NEXT  &kp C_PIP      &kp RSHFT
-                        &kp LGUI     &kp LALT     &kp LCTRL    &trans      &kp SPACE   &kp RET  &trans    &kp RCTRL &kp RALT  &kp RGUI
+                        &kp LGUI     &kp LALT     &kp LCTRL &trans         &kp SPACE   &kp RET  &trans    &kp RCTRL &kp RALT    &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
