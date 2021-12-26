@@ -59,10 +59,10 @@
 // | SHIFT | UNDO | CUT  | COPY  | PASTE |        |        |  |       | PLAY | MUTE |  NEXT |  PREV |  PIP  | SHIFT |
 //                | GUI  |  ALT  |  CTRL |        |  SPACE |  | ENTER |      | CTRL |  ALT  |  GUI  |
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                     &kp F13   &kp F14   &kp F15   &kp F16   &out OUT_BLE  &ext_power EP_ON
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                           &kp HOME  &kp PG_DN &kp PG_UP &kp END   &out OUT_USB  &ext_power EP_OFF
-&kp TAB    &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                         &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp DEL       &kp BSPC
-&kp LSHFT  &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans      &trans      &trans   &C_PP     &kp F24   &C_PREV   &C_NEXT   &C_PIP        &kp RSHFT
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                     &kp F13   &kp F14   &kp F15     &kp F16     &out OUT_BLE   &ext_power EP_ON
+&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                           &kp HOME  &kp PG_DN &kp PG_UP   &kp END     &out OUT_USB   &ext_power EP_OFF
+&kp TAB    &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                         &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT   &kp DEL        &kp BSPC
+&kp LSHFT  &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans      &trans      &trans   &kp C_PP  &kp F24   &kp C_PREV  &kp C_NEXT  &kp C_PIP      &kp RSHFT
                         &kp LGUI     &kp LALT     &kp LCTRL    &trans      &kp SPACE   &kp RET  &trans    &kp RCTRL &kp RALT  &kp RGUI
             >;
 
